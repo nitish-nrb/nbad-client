@@ -1,0 +1,14 @@
+#profile-container{
+    display: 'flex';
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-top:20vh;
+}
+
+#avatar-div{
+    display: 'flex';
+    justify-content: center;
+    align-items: center
+}

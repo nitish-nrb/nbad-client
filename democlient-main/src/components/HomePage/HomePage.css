@@ -1,0 +1,13 @@
+#login-btn{
+    color:white;
+    border-color: white;
+}
+
+#login-btn:hover{
+    color:black;
+    background-color: white;
+}
+
+#center-btn{
+    margin-top:20px;
+}

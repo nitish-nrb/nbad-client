@@ -1,0 +1,12 @@
+version: "1"
+services: 
+  nginx-react:
+    image: reactapp1:latest 
+    container_name: peresonal-budget-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+    environment:
+      NODE_ENV: production
